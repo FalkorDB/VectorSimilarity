@@ -27,7 +27,7 @@ typedef enum {
 typedef union {
     double floatingPointValue; // Floating point value. 64 bits float.
     int64_t integerValue;      // Integer value. Signed 64 bits integer.
-    u_int64_t uintegerValue;   // Unsigned value. Unsigned 64 buts integer.
+    uint64_t uintegerValue;    // Unsigned value. Unsigned 64 buts integer.
     const char *stringValue;   // String value.
 } FieldValue;
 
